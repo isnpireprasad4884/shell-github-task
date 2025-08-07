@@ -8,7 +8,7 @@ fi
 
 FILENAME=$1
 TIMESTAMP=$(date "+%Y-%m-%d %H:%M:%S")
-CUSTOM_MSG="This is a custom message"
+CUSTOM_MSG="The script has been triggered and new verison is created"
 
 # Create the file if it doesn't exist
 if [ ! -f "$FILENAME" ]; then
